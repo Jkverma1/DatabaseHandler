@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap");
+
+* {
+  font-family: Outfit;
+}
+
+.sign-up-body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  max-width: 619px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28.8px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  max-width: 719px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.32px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 30.24px;
+  font-weight: 600;
+}
+
+h5 {
+  color: #2e3552;
+  font-size: 16px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+h6 {
+  color: #2e3552;
+  font-size: 14px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+@media only screen and (max-width: 576px) {
+  p {
+    max-width: 619px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24.8px;
+    padding: 0 15px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 44px;
+    max-width: 719px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.32px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 26.24px;
+    font-weight: 600;
+  }
+
+  h5 {
+    color: #2e3552;
+    font-size: 12px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  h6 {
+    color: #2e3552;
+    font-size: 10px;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+}
+
+/* Create Account CSS */
+.float-end {
+  float: right;
+}
+
+
+.sign-up-body {
+  background: #00bcd9;
+}
+
+.sign-up-form-container {
+  margin: 120px 0;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #f6f3fa;
+  width: 100%;
+  max-width: 520px;
+}
+
+label {
+  color: #2e3552;
+  font-size: 14px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.brand-color {
+  color: #ff4513;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.btn-orange {
+  border-radius: 10px;
+  color: #fefefe;
+  background: #ff4513;
+}
+
+.login-orange {
+  color: #ff4513;
+  font-size: 16px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
